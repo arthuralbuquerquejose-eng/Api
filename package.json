@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/arthuralbuquerquejose-eng/Api#readme",
+  "bugs": {
+    "url": "https://github.com/arthuralbuquerquejose-eng/Api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthuralbuquerquejose-eng/Api.git"
+  },
+  "license": "ISC",
+  "author": "arthur",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "ejs": "^7.0.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.7.0",
+    "nodemon": "^3.1.14"
+  }
+}
